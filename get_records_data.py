@@ -41,6 +41,7 @@ def get_records_data(df: pd.DataFrame, ip: str, port: str, output_dir: str, num_
         p.map(proxy_dump_traces, tasks)
 
 
+"sudo python3 get_records_data.py --records ./records/2023-01-15.csv"
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-r', '--records', dest='records', type=str, help='records path', required=True)

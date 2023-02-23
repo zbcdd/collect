@@ -19,7 +19,7 @@ def get_normal_data(st_time: datetime, ed_time: datetime, ip: str, port: str, ou
 
     tasks = []
     last_time, cur_time = st_time, get_next_ts_clean_time(st_time)
-    while cur_time < ed_time:
+    while cur_time <= ed_time:
         tasks.append({
             'ip': ip,
             'port': port,
@@ -37,6 +37,7 @@ def get_normal_data(st_time: datetime, ed_time: datetime, ip: str, port: str, ou
         p.map(proxy_dump_traces, tasks)
 
 
+""
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-s', '--st', dest='st_time', type=str, help='start time', required=True)
@@ -49,6 +50,7 @@ if __name__ == '__main__':
     time_format = '%Y-%m-%d %H:%M:%S'
     st_time = datetime.strptime(st_time, time_format)
     ed_time = datetime.strptime(ed_time, time_format)
+    print(st_time, ed_time)
 
     get_normal_data(
         st_time=st_time,
