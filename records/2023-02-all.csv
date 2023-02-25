@@ -52,15 +52,3 @@ st_time,ed_time,fault_type,root_cause,filename
 2023-02-24T15:30:00,2023-02-24T15:36:00,pod-http-request-delay,ts-cancel-service-646644ddf4-925sf,2023-02-24T15:30:00_2023-02-24T15:36:00
 2023-02-24T15:45:00,2023-02-24T15:51:00,pod-http-request-delay,ts-contacts-service-7586d57c67-sl6vm,2023-02-24T15:45:00_2023-02-24T15:51:00
 2023-02-24T16:00:01,2023-02-24T16:06:00,pod-http-request-delay,ts-order-other-service-5b5666cd96-t4422,2023-02-24T16:00:01_2023-02-24T16:06:00
-2023-02-24T16:15:00,2023-02-24T16:21:00,pod-http-request-delay,ts-preserve-service-56548b8fd4-9vpl4,2023-02-24T16:15:00_2023-02-24T16:21:00
-2023-02-24T16:30:00,2023-02-24T16:36:00,pod-http-request-delay,ts-route-service-cd8474f97-gbz2k,2023-02-24T16:30:00_2023-02-24T16:36:00
-2023-02-24T16:45:00,2023-02-24T16:51:00,pod-http-request-delay,ts-train-food-service-9557b666c-hwbrd,2023-02-24T16:45:00_2023-02-24T16:51:00
-2023-02-24T17:00:00,2023-02-24T17:06:00,pod-http-request-delay,ts-travel2-service-686c895647-tml77,2023-02-24T17:00:00_2023-02-24T17:06:00
-2023-02-24T17:15:00,2023-02-24T17:21:00,svc-http-request-delay,"ts-admin-route-service-77cd6cf987-k9c7w,ts-admin-route-service-77cd6cf987-sqgxp",2023-02-24T17:15:00_2023-02-24T17:21:00
-2023-02-24T17:30:00,2023-02-24T17:36:00,svc-http-request-delay,"ts-consign-price-service-c5f7dc849-2qlkb,ts-consign-price-service-c5f7dc849-vnwwj",2023-02-24T17:30:00_2023-02-24T17:36:00
-2023-02-24T17:45:02,2023-02-24T17:51:00,svc-http-request-delay,"ts-food-service-57ff7645dc-7z627,ts-food-service-57ff7645dc-hpf7b",2023-02-24T17:45:02_2023-02-24T17:51:00
-2023-02-24T18:00:00,2023-02-24T18:06:00,svc-http-request-delay,"ts-payment-service-5fb5487dd5-g929j,ts-payment-service-5fb5487dd5-zbf9r",2023-02-24T18:00:00_2023-02-24T18:06:00
-2023-02-24T18:15:00,2023-02-24T18:21:00,svc-http-request-delay,"ts-rebook-service-7d69b45f79-crg9s,ts-rebook-service-7d69b45f79-njgwx",2023-02-24T18:15:00_2023-02-24T18:21:00
-2023-02-24T18:30:00,2023-02-24T18:36:00,svc-http-request-delay,"ts-security-service-677c5578f7-fbfzm,ts-security-service-677c5578f7-h85mb",2023-02-24T18:30:00_2023-02-24T18:36:00
-2023-02-24T18:45:00,2023-02-24T18:51:00,svc-http-request-delay,"ts-travel-plan-service-d45b64468-8ftcf,ts-travel-plan-service-d45b64468-pxh4s",2023-02-24T18:45:00_2023-02-24T18:51:00
-2023-02-24T19:00:00,2023-02-24T19:06:00,svc-http-request-delay,"ts-verification-code-service-74447dff85-9857q,ts-verification-code-service-74447dff85-h9bwx",2023-02-24T19:00:00_2023-02-24T19:06:00
