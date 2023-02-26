@@ -55,7 +55,7 @@ if __name__ == '__main__':
         port='13200',
         output_dir='/data1/TraceMDRCA/data/raw_data/fault',
         num_workers=4,
-        num_threads=4,
+        num_threads=3,
         overwrite=False,
         limit=100000
     )
