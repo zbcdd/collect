@@ -40,8 +40,8 @@ def get_normal_data(st_time: datetime, ed_time: datetime, ip: str, port: str, ou
         st = get_next_ts_clean_time(ed)
         ed = min(st + timedelta(minutes=normal_delta), ed_time)
 
-    # with Pool(num_workers) as p:
-    #     p.map(proxy_dump_traces, tasks)
+    with Pool(num_workers) as p:
+        p.map(proxy_dump_traces, tasks)
 
 
 ""
