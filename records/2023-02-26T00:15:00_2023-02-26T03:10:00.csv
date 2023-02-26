@@ -1,0 +1,12 @@
+st_time,ed_time,fault_type,root_cause,filename
+2023-02-26T00:15:00,2023-02-26T00:21:00,pod-http-request-delay,ts-preserve-service-56548b8fd4-9hhqg,2023-02-26T00:15:00_2023-02-26T00:21:00
+2023-02-26T00:30:00,2023-02-26T00:36:00,pod-http-request-delay,ts-train-food-service-9557b666c-b2hbb,2023-02-26T00:30:00_2023-02-26T00:36:00
+2023-02-26T00:45:00,2023-02-26T00:51:00,pod-http-request-delay,ts-travel2-service-686c895647-wpwqx,2023-02-26T00:45:00_2023-02-26T00:51:00
+2023-02-26T01:00:00,2023-02-26T01:06:00,svc-http-request-delay,"ts-admin-route-service-77cd6cf987-9mwsv,ts-admin-route-service-77cd6cf987-nh64d",2023-02-26T01:00:00_2023-02-26T01:06:00
+2023-02-26T01:15:00,2023-02-26T01:21:00,svc-http-request-delay,"ts-consign-price-service-c5f7dc849-4cj7z,ts-consign-price-service-c5f7dc849-7lckk",2023-02-26T01:15:00_2023-02-26T01:21:00
+2023-02-26T01:30:00,2023-02-26T01:36:00,svc-http-request-delay,"ts-food-service-57ff7645dc-bxh5c,ts-food-service-57ff7645dc-m45qq",2023-02-26T01:30:00_2023-02-26T01:36:00
+2023-02-26T01:45:01,2023-02-26T01:51:00,svc-http-request-delay,"ts-payment-service-5fb5487dd5-6zw7b,ts-payment-service-5fb5487dd5-kzpjb",2023-02-26T01:45:01_2023-02-26T01:51:00
+2023-02-26T02:00:00,2023-02-26T02:06:00,svc-http-request-delay,"ts-rebook-service-7d69b45f79-5s2ld,ts-rebook-service-7d69b45f79-94dzp",2023-02-26T02:00:00_2023-02-26T02:06:00
+2023-02-26T02:15:00,2023-02-26T02:21:00,svc-http-request-delay,"ts-security-service-677c5578f7-9mhrf,ts-security-service-677c5578f7-v4l77",2023-02-26T02:15:00_2023-02-26T02:21:00
+2023-02-26T02:30:01,2023-02-26T02:36:00,svc-http-request-delay,"ts-travel-plan-service-d45b64468-48f8x,ts-travel-plan-service-d45b64468-5fxxp",2023-02-26T02:30:01_2023-02-26T02:36:00
+2023-02-26T02:45:00,2023-02-26T02:51:00,svc-http-request-delay,"ts-verification-code-service-74447dff85-9sccm,ts-verification-code-service-74447dff85-c24d9",2023-02-26T02:45:00_2023-02-26T02:51:00
