@@ -1,0 +1,32 @@
+st_time,ed_time,fault_type,root_cause,filename
+2023-03-05T13:45:00,2023-03-05T13:51:00,svc-http-request-delay,"ts-admin-travel-service-d5c4d76b4-75mb9,ts-admin-travel-service-d5c4d76b4-zlzzt",2023-03-05T13:45:00_2023-03-05T13:51:00
+2023-03-05T14:00:01,2023-03-05T14:06:00,svc-http-request-delay,"ts-admin-user-service-57fbb896c4-2dmf4,ts-admin-user-service-57fbb896c4-t5rs9",2023-03-05T14:00:01_2023-03-05T14:06:00
+2023-03-05T14:15:00,2023-03-05T14:21:00,svc-http-request-delay,"ts-assurance-service-67584bc8ff-6dm4t,ts-assurance-service-67584bc8ff-pn9m6",2023-03-05T14:15:00_2023-03-05T14:21:00
+2023-03-05T14:30:00,2023-03-05T14:36:00,svc-http-request-delay,"ts-contacts-service-7586d57c67-gvmbr,ts-contacts-service-7586d57c67-xq9g2",2023-03-05T14:30:00_2023-03-05T14:36:00
+2023-03-05T14:45:01,2023-03-05T14:51:00,svc-http-request-delay,"ts-preserve-other-service-58bb58c679-8ljsh,ts-preserve-other-service-58bb58c679-rbg5g",2023-03-05T14:45:01_2023-03-05T14:51:00
+2023-03-05T15:00:00,2023-03-05T15:06:00,svc-http-request-delay,"ts-preserve-service-56548b8fd4-cml68,ts-preserve-service-56548b8fd4-zwvfm",2023-03-05T15:00:00_2023-03-05T15:06:00
+2023-03-05T15:15:00,2023-03-05T15:21:00,svc-http-request-delay,"ts-price-service-64bb4958f7-hl8cr,ts-price-service-64bb4958f7-vn6gt",2023-03-05T15:15:00_2023-03-05T15:21:00
+2023-03-05T15:30:05,2023-03-05T15:36:00,pod-pod-network-delay,ts-inside-payment-service-59c4bc8bb7-69bcb ts-order-service-5c8b698d7b-s28h5,2023-03-05T15:30:05_2023-03-05T15:36:00
+2023-03-05T15:45:04,2023-03-05T15:51:00,pod-pod-network-delay,ts-preserve-service-56548b8fd4-cml68 ts-contacts-service-7586d57c67-gvmbr,2023-03-05T15:45:04_2023-03-05T15:51:00
+2023-03-05T16:00:04,2023-03-05T16:06:00,pod-pod-network-delay,ts-travel-service-86bc99b94f-gpwff ts-basic-service-dc47b9966-2g8xd,2023-03-05T16:00:04_2023-03-05T16:06:00
+2023-03-05T16:15:03,2023-03-05T16:21:00,pod-pod-network-delay,ts-preserve-service-56548b8fd4-cml68 ts-order-service-5c8b698d7b-s28h5,2023-03-05T16:15:03_2023-03-05T16:21:00
+2023-03-05T16:30:04,2023-03-05T16:36:00,pod-pod-network-delay,ts-food-service-57ff7645dc-d9hcf ts-train-food-service-9557b666c-d75rr,2023-03-05T16:30:04_2023-03-05T16:36:00
+2023-03-05T16:45:03,2023-03-05T16:51:00,pod-pod-network-delay,ts-preserve-service-56548b8fd4-cml68 ts-seat-service-bd95445c9-64z7t,2023-03-05T16:45:03_2023-03-05T16:51:00
+2023-03-05T17:00:04,2023-03-05T17:06:00,pod-pod-network-delay,ts-execute-service-74b9955ddc-6gtch ts-order-other-service-5b5666cd96-2p9pt,2023-03-05T17:00:04_2023-03-05T17:06:00
+2023-03-05T17:15:04,2023-03-05T17:21:00,pod-pod-network-delay,ts-travel-plan-service-d45b64468-266gr ts-seat-service-bd95445c9-64z7t,2023-03-05T17:15:04_2023-03-05T17:21:00
+2023-03-05T17:30:06,2023-03-05T17:36:00,svc-svc-network-delay,"ts-inside-payment-service(ts-inside-payment-service-59c4bc8bb7-69bcb,ts-inside-payment-service-59c4bc8bb7-vmhsn) ts-order-service(ts-order-service-5c8b698d7b-s28h5,ts-order-service-5c8b698d7b-vnmqh)",2023-03-05T17:30:06_2023-03-05T17:36:00
+2023-03-05T17:45:05,2023-03-05T17:51:00,svc-svc-network-delay,"ts-preserve-service(ts-preserve-service-56548b8fd4-cml68,ts-preserve-service-56548b8fd4-zwvfm) ts-basic-service(ts-basic-service-dc47b9966-2g8xd,ts-basic-service-dc47b9966-cd62j)",2023-03-05T17:45:05_2023-03-05T17:51:00
+2023-03-05T18:00:04,2023-03-05T18:06:00,svc-svc-network-delay,"ts-preserve-service(ts-preserve-service-56548b8fd4-cml68,ts-preserve-service-56548b8fd4-zwvfm) ts-user-service(ts-user-service-5d65df69b-cbpk5,ts-user-service-5d65df69b-v44g9)",2023-03-05T18:00:04_2023-03-05T18:06:00
+2023-03-05T18:15:05,2023-03-05T18:21:00,svc-svc-network-delay,"ts-food-service(ts-food-service-57ff7645dc-d9hcf,ts-food-service-57ff7645dc-zmxzv) ts-train-food-service(ts-train-food-service-9557b666c-d75rr,ts-train-food-service-9557b666c-m9vgs)",2023-03-05T18:15:05_2023-03-05T18:21:00
+2023-03-05T18:30:06,2023-03-05T18:36:00,svc-svc-network-delay,"ts-cancel-service(ts-cancel-service-646644ddf4-p4x79,ts-cancel-service-646644ddf4-qkjtb) ts-order-service(ts-order-service-5c8b698d7b-s28h5,ts-order-service-5c8b698d7b-vnmqh)",2023-03-05T18:30:06_2023-03-05T18:36:00
+2023-03-05T18:45:06,2023-03-05T18:51:00,svc-svc-network-delay,"ts-route-plan-service(ts-route-plan-service-7bc6d9959f-m9jcw,ts-route-plan-service-7bc6d9959f-xzs2f) ts-travel-service(ts-travel-service-86bc99b94f-gpwff,ts-travel-service-86bc99b94f-xbpz5)",2023-03-05T18:45:06_2023-03-05T18:51:00
+2023-03-05T19:00:05,2023-03-05T19:06:00,svc-svc-network-delay,"ts-travel-plan-service(ts-travel-plan-service-d45b64468-266gr,ts-travel-plan-service-d45b64468-nd8qn) ts-train-service(ts-train-service-59d7f678c7-txhp4,ts-train-service-59d7f678c7-x6fvw)",2023-03-05T19:00:05_2023-03-05T19:06:00
+2023-03-05T19:15:04,2023-03-05T19:21:00,svc-svc-network-delay,"ts-route-plan-service(ts-route-plan-service-7bc6d9959f-m9jcw,ts-route-plan-service-7bc6d9959f-xzs2f) ts-route-service(ts-route-service-cd8474f97-8w4tk,ts-route-service-cd8474f97-lfjcg)",2023-03-05T19:15:04_2023-03-05T19:21:00
+2023-03-05T19:30:05,2023-03-05T19:36:21,pod-cpu-full,ts-admin-order-service-77b645d88f-j62g8,2023-03-05T19:30:05_2023-03-05T19:36:21
+2023-03-05T19:45:05,2023-03-05T19:51:21,pod-cpu-full,ts-admin-basic-info-service-595db5b9cf-8jh7d,2023-03-05T19:45:05_2023-03-05T19:51:21
+2023-03-05T20:00:05,2023-03-05T20:06:00,pod-cpu-full,ts-cancel-service-646644ddf4-p4x79,2023-03-05T20:00:05_2023-03-05T20:06:00
+2023-03-05T20:15:05,2023-03-05T20:21:20,pod-cpu-full,ts-config-service-7578bd9cf7-swnqx,2023-03-05T20:15:05_2023-03-05T20:21:20
+2023-03-05T20:30:04,2023-03-05T20:36:20,pod-cpu-full,ts-preserve-service-56548b8fd4-cml68,2023-03-05T20:30:04_2023-03-05T20:36:20
+2023-03-05T20:45:06,2023-03-05T20:51:21,pod-cpu-full,ts-price-service-64bb4958f7-hl8cr,2023-03-05T20:45:06_2023-03-05T20:51:21
+2023-03-05T21:00:07,2023-03-05T21:06:20,svc-cpu-full,"ts-admin-travel-service(ts-admin-travel-service-d5c4d76b4-75mb9,ts-admin-travel-service-d5c4d76b4-zlzzt)",2023-03-05T21:00:07_2023-03-05T21:06:20
+2023-03-05T21:15:06,2023-03-05T21:21:20,svc-cpu-full,"ts-admin-user-service(ts-admin-user-service-57fbb896c4-2dmf4,ts-admin-user-service-57fbb896c4-t5rs9)",2023-03-05T21:15:06_2023-03-05T21:21:20
