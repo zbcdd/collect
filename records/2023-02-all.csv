@@ -9,23 +9,23 @@ st_time,ed_time,fault_type,root_cause,filename
 2023-02-23T15:16:08,2023-02-23T15:21:00,api-delay,ts-order-service-5c8b698d7b-cvq6t order.controller.OrderController queryOrdersForRefresh,2023-02-23T15:16:08_2023-02-23T15:21:00
 2023-02-23T15:31:19,2023-02-23T15:36:00,api-delay,ts-consign-service-97b57cdf6-2zfq5 consign.controller.ConsignController updateConsign,2023-02-23T15:31:19_2023-02-23T15:36:00
 2023-02-23T15:47:09,2023-02-23T15:51:00,api-delay,ts-route-service-cd8474f97-gbz2k route.controller.RouteController queryById,2023-02-23T15:47:09_2023-02-23T15:51:00
-2023-02-23T16:00:02,2023-02-23T16:06:00,pod-mysql-delay,ts-order-service-5c8b698d7b-cvq6t mysql-all,2023-02-23T16:00:02_2023-02-23T16:06:00
-2023-02-23T16:15:02,2023-02-23T16:21:00,pod-mysql-delay,ts-contacts-service-7586d57c67-gf6zp mysql-all,2023-02-23T16:15:02_2023-02-23T16:21:00
-2023-02-23T16:30:03,2023-02-23T16:36:00,pod-mysql-delay,ts-order-other-service-5b5666cd96-pfnfd mysql-all,2023-02-23T16:30:03_2023-02-23T16:36:00
-2023-02-23T16:45:03,2023-02-23T16:51:00,pod-mysql-delay,ts-route-service-cd8474f97-gbz2k mysql-all,2023-02-23T16:45:03_2023-02-23T16:51:00
-2023-02-23T17:00:48,2023-02-23T17:06:00,pod-mysql-delay,ts-train-food-service-9557b666c-hwbrd mysql-all,2023-02-23T17:00:48_2023-02-23T17:06:00
-2023-02-23T17:15:03,2023-02-23T17:21:00,pod-mysql-delay,ts-travel2-service-686c895647-ntgtj mysql-all,2023-02-23T17:15:03_2023-02-23T17:21:00
-2023-02-23T17:30:03,2023-02-23T17:36:00,pod-mysql-delay,ts-consign-service-97b57cdf6-2zfq5 mysql-all,2023-02-23T17:30:03_2023-02-23T17:36:00
-2023-02-23T17:45:54,2023-02-23T17:51:00,pod-mysql-delay,ts-inside-payment-service-59c4bc8bb7-nb5sw mysql-all,2023-02-23T17:45:54_2023-02-23T17:51:00
-2023-02-23T18:00:55,2023-02-23T18:06:00,pod-mysql-delay,ts-station-service-666c97f68d-c544b mysql-all,2023-02-23T18:00:55_2023-02-23T18:06:00
-2023-02-23T18:15:03,2023-02-23T18:21:00,pod-mysql-delay,ts-travel-service-86bc99b94f-bf88m mysql-all,2023-02-23T18:15:03_2023-02-23T18:21:00
-2023-02-23T18:30:02,2023-02-23T18:36:00,pod-mysql-delay,ts-assurance-service-67584bc8ff-mfw47 mysql-all,2023-02-23T18:30:02_2023-02-23T18:36:00
-2023-02-23T18:45:53,2023-02-23T18:51:00,pod-mysql-delay,ts-config-service-7578bd9cf7-29qtt mysql-all,2023-02-23T18:45:53_2023-02-23T18:51:00
-2023-02-23T19:01:08,2023-02-23T19:06:00,pod-mysql-delay,ts-price-service-64bb4958f7-47htp mysql-all,2023-02-23T19:01:08_2023-02-23T19:06:00
-2023-02-23T19:16:05,2023-02-23T19:21:00,pod-mysql-delay,ts-train-service-59d7f678c7-7ck2l mysql-all,2023-02-23T19:16:05_2023-02-23T19:21:00
-2023-02-23T19:30:51,2023-02-23T19:36:00,pod-mysql-delay,ts-user-service-5d65df69b-5swlz mysql-all,2023-02-23T19:30:51_2023-02-23T19:36:00
-2023-02-23T19:45:49,2023-02-23T19:51:00,pod-mysql-delay,ts-consign-price-service-c5f7dc849-2qlkb mysql-all,2023-02-23T19:45:49_2023-02-23T19:51:00
-2023-02-23T20:00:59,2023-02-23T20:06:00,pod-mysql-delay,ts-security-service-677c5578f7-fbfzm mysql-all,2023-02-23T20:00:59_2023-02-23T20:06:00
+2023-02-23T16:00:02,2023-02-23T16:06:00,pod-mysql-delay,ts-order-service-5c8b698d7b-cvq6t,2023-02-23T16:00:02_2023-02-23T16:06:00
+2023-02-23T16:15:02,2023-02-23T16:21:00,pod-mysql-delay,ts-contacts-service-7586d57c67-gf6zp,2023-02-23T16:15:02_2023-02-23T16:21:00
+2023-02-23T16:30:03,2023-02-23T16:36:00,pod-mysql-delay,ts-order-other-service-5b5666cd96-pfnfd,2023-02-23T16:30:03_2023-02-23T16:36:00
+2023-02-23T16:45:03,2023-02-23T16:51:00,pod-mysql-delay,ts-route-service-cd8474f97-gbz2k,2023-02-23T16:45:03_2023-02-23T16:51:00
+2023-02-23T17:00:48,2023-02-23T17:06:00,pod-mysql-delay,ts-train-food-service-9557b666c-hwbrd,2023-02-23T17:00:48_2023-02-23T17:06:00
+2023-02-23T17:15:03,2023-02-23T17:21:00,pod-mysql-delay,ts-travel2-service-686c895647-ntgtj,2023-02-23T17:15:03_2023-02-23T17:21:00
+2023-02-23T17:30:03,2023-02-23T17:36:00,pod-mysql-delay,ts-consign-service-97b57cdf6-2zfq5,2023-02-23T17:30:03_2023-02-23T17:36:00
+2023-02-23T17:45:54,2023-02-23T17:51:00,pod-mysql-delay,ts-inside-payment-service-59c4bc8bb7-nb5sw,2023-02-23T17:45:54_2023-02-23T17:51:00
+2023-02-23T18:00:55,2023-02-23T18:06:00,pod-mysql-delay,ts-station-service-666c97f68d-c544b,2023-02-23T18:00:55_2023-02-23T18:06:00
+2023-02-23T18:15:03,2023-02-23T18:21:00,pod-mysql-delay,ts-travel-service-86bc99b94f-bf88m,2023-02-23T18:15:03_2023-02-23T18:21:00
+2023-02-23T18:30:02,2023-02-23T18:36:00,pod-mysql-delay,ts-assurance-service-67584bc8ff-mfw47  mysql-all,2023-02-23T18:30:02_2023-02-23T18:36:00
+2023-02-23T18:45:53,2023-02-23T18:51:00,pod-mysql-delay,ts-config-service-7578bd9cf7-29qtt,2023-02-23T18:45:53_2023-02-23T18:51:00
+2023-02-23T19:01:08,2023-02-23T19:06:00,pod-mysql-delay,ts-price-service-64bb4958f7-47htp,2023-02-23T19:01:08_2023-02-23T19:06:00
+2023-02-23T19:16:05,2023-02-23T19:21:00,pod-mysql-delay,ts-train-service-59d7f678c7-7ck2l,2023-02-23T19:16:05_2023-02-23T19:21:00
+2023-02-23T19:30:51,2023-02-23T19:36:00,pod-mysql-delay,ts-user-service-5d65df69b-5swlz,2023-02-23T19:30:51_2023-02-23T19:36:00
+2023-02-23T19:45:49,2023-02-23T19:51:00,pod-mysql-delay,ts-consign-price-service-c5f7dc849-2qlkb,2023-02-23T19:45:49_2023-02-23T19:51:00
+2023-02-23T20:00:59,2023-02-23T20:06:00,pod-mysql-delay,ts-security-service-677c5578f7-fbfzm,2023-02-23T20:00:59_2023-02-23T20:06:00
 2023-02-24T09:45:03,2023-02-24T09:51:00,pod-typed-mysql-delay,ts-food-service-57ff7645dc-7z627 mysql-insert,2023-02-24T09:45:03_2023-02-24T09:51:00
 2023-02-24T10:00:03,2023-02-24T10:06:00,pod-typed-mysql-delay,ts-order-service-5c8b698d7b-cvq6t mysql-insert,2023-02-24T10:00:03_2023-02-24T10:06:00
 2023-02-24T10:15:03,2023-02-24T10:21:00,pod-typed-mysql-delay,ts-route-service-cd8474f97-gbz2k mysql-insert,2023-02-24T10:15:03_2023-02-24T10:21:00
@@ -114,7 +114,7 @@ st_time,ed_time,fault_type,root_cause,filename
 2023-03-03T12:00:57,2023-03-03T12:06:00,api-delay,ts-execute-service-74b9955ddc-hxh6f execute.controller.ExecuteControlller executeTicket,2023-03-03T12:00:57_2023-03-03T12:06:00
 2023-03-03T12:15:03,2023-03-03T12:21:00,api-delay,ts-cancel-service-646644ddf4-f5pp6 cancel.controller.CancelController calculate,2023-03-03T12:15:03_2023-03-03T12:21:00
 2023-03-03T12:30:03,2023-03-03T12:36:00,api-delay,ts-rebook-service-7d69b45f79-m6rpm rebook.controller.RebookController payDifference,2023-03-03T12:30:03_2023-03-03T12:36:00
-2023-03-03T13:00:58,2023-03-03T13:06:00,pod-mysql-delay,ts-payment-service-5fb5487dd5-fvvzx mysql-all,2023-03-03T13:00:58_2023-03-03T13:06:00
+2023-03-03T13:00:58,2023-03-03T13:06:00,pod-mysql-delay,ts-payment-service-5fb5487dd5-fvvzx,2023-03-03T13:00:58_2023-03-03T13:06:00
 2023-03-03T13:15:02,2023-03-03T13:21:00,pod-typed-mysql-delay,ts-consign-service-97b57cdf6-lhmgp mysql-insert,2023-03-03T13:15:02_2023-03-03T13:21:00
 2023-03-03T13:46:17,2023-03-03T13:51:00,pod-typed-mysql-delay,ts-station-service-666c97f68d-c5rsb mysql-insert,2023-03-03T13:46:17_2023-03-03T13:51:00
 2023-03-03T14:00:57,2023-03-03T14:06:00,pod-typed-mysql-delay,ts-order-service-5c8b698d7b-5d6wh mysql-delete,2023-03-03T14:00:57_2023-03-03T14:06:00
